@@ -1,4 +1,11 @@
--- Question 1: INNER JOIN 
+
+-- Week 6 Assignment: SQL Joins and Relationships
+-- Student Name:Irakoze Firmin
+-- Date:18/November/2026
+
+USE classicmodels_plp;
+
+-- Question 1: INNER JOIN
 SELECT
     employees.firstName,
     employees.lastName,
@@ -19,7 +26,7 @@ LEFT JOIN productlines
 ON products.productLine = productlines.productLine;
 
 
--- Question 3: RIGHT JOIN 
+-- Question 3: RIGHT JOIN
 SELECT
     orders.orderDate,
     orders.shippedDate,
